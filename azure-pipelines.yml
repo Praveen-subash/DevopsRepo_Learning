@@ -6,10 +6,9 @@
 trigger:
 - master
 
-#pool:
-  #vmImage: ubuntu-latest
+pool:
+  vmImage: ubuntu-latest
 
-pool : Self hosted for parallelism issue
 
 steps:
 - task: Maven@3
